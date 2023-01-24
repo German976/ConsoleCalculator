@@ -18,5 +18,12 @@ namespace WinFormsApp1
             string res = Convert.ToString(c);
             MessageBox.Show(res);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int c = 2 - 3;
+            string res = Convert.ToString(c);
+            MessageBox.Show(res);
+        }
     }
 }
