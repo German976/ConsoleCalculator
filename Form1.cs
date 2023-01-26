@@ -33,11 +33,13 @@ namespace WinFormsApp1
             MessageBox.Show(Convert.ToString(resSin));
         }
 
+
         private void button_plusPlus_Click(object sender, EventArgs e)
         {
             int a = 9;
             a++;
             MessageBox.Show(Convert.ToString(a));
         }
+
     }
 }
