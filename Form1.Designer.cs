@@ -31,9 +31,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button_Sin = new System.Windows.Forms.Button();
-
             this.button_plusPlus = new System.Windows.Forms.Button();
-
+            this.button_minMin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -66,7 +65,6 @@
             this.button_Sin.UseVisualStyleBackColor = true;
             this.button_Sin.Click += new System.EventHandler(this.button_Sin_Click);
             // 
-
             // button_plusPlus
             // 
             this.button_plusPlus.Location = new System.Drawing.Point(470, 257);
@@ -77,15 +75,23 @@
             this.button_plusPlus.UseVisualStyleBackColor = true;
             this.button_plusPlus.Click += new System.EventHandler(this.button_plusPlus_Click);
             // 
-
+            // button_minMin
+            // 
+            this.button_minMin.Location = new System.Drawing.Point(470, 319);
+            this.button_minMin.Name = "button_minMin";
+            this.button_minMin.Size = new System.Drawing.Size(112, 34);
+            this.button_minMin.TabIndex = 4;
+            this.button_minMin.Text = "--";
+            this.button_minMin.UseVisualStyleBackColor = true;
+            this.button_minMin.Click += new System.EventHandler(this.button_minMin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-
+            this.Controls.Add(this.button_minMin);
             this.Controls.Add(this.button_plusPlus);
-
             this.Controls.Add(this.button_Sin);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -103,6 +109,6 @@
         private Button button_Sin;
 
         private Button button_plusPlus;
-
+        private Button button_minMin;
     }
 }

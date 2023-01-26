@@ -41,5 +41,11 @@ namespace WinFormsApp1
             MessageBox.Show(Convert.ToString(a));
         }
 
+        private void button_minMin_Click(object sender, EventArgs e)
+        {
+            int a = 9;
+            a--;
+            MessageBox.Show(Convert.ToString(a));
+        }
     }
 }
