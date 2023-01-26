@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button_Sin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -52,11 +53,22 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button_Sin
+            // 
+            this.button_Sin.Location = new System.Drawing.Point(196, 257);
+            this.button_Sin.Name = "button_Sin";
+            this.button_Sin.Size = new System.Drawing.Size(112, 34);
+            this.button_Sin.TabIndex = 2;
+            this.button_Sin.Text = "Sin";
+            this.button_Sin.UseVisualStyleBackColor = true;
+            this.button_Sin.Click += new System.EventHandler(this.button_Sin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_Sin);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -70,5 +82,6 @@
 
         private Button button1;
         private Button button2;
+        private Button button_Sin;
     }
 }

@@ -25,5 +25,12 @@ namespace WinFormsApp1
             string res = Convert.ToString(c);
             MessageBox.Show(res);
         }
+
+        private void button_Sin_Click(object sender, EventArgs e)
+        {
+            int a = 2;
+            double resSin = Math.Sin(a);
+            MessageBox.Show(Convert.ToString(resSin));
+        }
     }
 }
